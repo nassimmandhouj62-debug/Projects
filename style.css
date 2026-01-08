@@ -1,0 +1,62 @@
+body{margin:0;font-family:Arial;background:#f5f5f5;color:#222}
+.top-nav{display:flex;justify-content:space-between;padding:15px 30px;background:#1e1e1e}
+.top-nav a,.top-nav .left{color:#fff;text-decoration:none;margin-left:15px}
+.hero{background:#1e1e1e;color:#fff;text-align:center;padding:90px 20px}
+.subtitle{color:#c8a46a}
+.hero-text{max-width:750px;margin:20px auto}
+.btn{background:#c8a46a;padding:14px 34px;color:#000;text-decoration:none;font-weight:bold}
+.overview,.projects-grid,.project-detail{max-width:1100px;margin:auto;padding:70px 20px}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:#fff;padding:20px;text-decoration:none;color:#222;border-radius:6px}
+.card img{width:100%;border-radius:6px;margin-bottom:10px}
+.project-detail img{width:100%;border-radius:6px;margin:20px 0}
+.back-btn{display:block;margin:20px;color:#c8a46a;text-decoration:none;font-weight:bold}
+footer{background:#1e1e1e;color:#aaa;text-align:center;padding:20px}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 6px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
